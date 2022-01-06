@@ -1,0 +1,8 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make.exe: Entering directory 'c:/Users/djw20/OneDrive/�γ��ļ�/����ѧ/PA2-AES/PA2-AES'
+gcc -c aes_core.c
+ 
+gcc -c cbc-encrypt.c
+gcc -o cbc-encrypt cbc-encrypt.o aes_core.o; rm cbc-encrypt.o
+make.exe: Leaving directory 'c:/Users/djw20/OneDrive/�γ��ļ�/����ѧ/PA2-AES/PA2-AES'
+ 
